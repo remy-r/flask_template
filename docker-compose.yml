@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  flask:
+    build:
+      context: ./docker
+    container_name: flask
+    ports:
+      - "80:80"
+    volumes:
+      - ./app:/code/app
