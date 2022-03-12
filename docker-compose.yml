@@ -8,3 +8,6 @@ services:
       - "80:80"
     volumes:
       - ./app:/code/app
+    environment:
+      - FLASK_DEBUG=1
+    command: flask run --host=0.0.0.0 --port 80
