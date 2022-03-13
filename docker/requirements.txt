@@ -1,1 +1,5 @@
 Flask
+Flask-SQLAlchemy
+flask-login
+pylint-flask-sqlalchemy
+pylint-flask

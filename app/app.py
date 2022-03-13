@@ -1,7 +1,5 @@
-from flask import Flask
+"""App Module"""
 
-app = Flask(__name__)
+from website import create_app
 
-@app.route("/")
-def hello_world():
-    return "<p>Hello, World!!!</p>"
+app = create_app()
